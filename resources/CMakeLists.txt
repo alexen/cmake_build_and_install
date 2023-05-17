@@ -1,0 +1,1 @@
+install(FILES firmware.img DESTINATION resources)
