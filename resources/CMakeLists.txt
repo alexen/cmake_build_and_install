@@ -5,7 +5,6 @@ set(RESOURCE_FILES
 
 add_custom_target(
      firmware ALL
-     DEPENDS ${RESOURCE_FILES}
      WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
      COMMENT "Copy resources to output directory"
      COMMAND ${CMAKE_COMMAND} -E make_directory ${CMAKE_RESOURCE_OUTPUT_DIRECTORY}
